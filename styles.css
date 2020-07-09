@@ -1,0 +1,95 @@
+
+/*image format*/
+.profilePhoto{
+    clip-path: circle(30%);
+    width: 20vw;
+    display: block;
+    margin: auto;
+}
+header {
+    background-image: url(images/headerBG.jpg);
+    width: 100vw;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+/*text align*/
+hr {
+    border: 6px dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+nav > ul {
+    text-align: right;
+    list-style-type:none;
+}
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+.navbar > li {
+    display:inline;
+    padding-left: 1rem;
+}
+#artCarouselControls {
+    width:50vw;
+    margin: auto;
+}
+.{
+    margin:auto;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+table { 
+    margin: auto;
+}
+th, td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    padding-right:2rem;
+}
+.contactMe {
+      margin: 50px auto auto auto;
+      width:20%;
+      text-align: center;
+      display: block;
+}
+.twitter-follow-button{
+    display: block;
+    margin: auto;
+}
+footer{
+    padding:50px;
+    margin: 50px auto; 
+}
+/*simple carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    width: 50vw;
+    height:62vh;
+    margin: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.carousel-item, {
+    flex-shrink: 0;
+}
+.portrait {
+    margin: auto 20px;
+    height: 60vh;
+}
+/*Padding*/
+section {
+    margin: 100px auto;
+    width: 70%;
+}
+article {
+     margin: 200px auto;
+    width: 70%;
+}
