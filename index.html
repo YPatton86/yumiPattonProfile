@@ -7,100 +7,111 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico">
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300;500&family=Sacramento&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+            integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+ 
 </head>
 <body>
     <header>
         <nav>
             <ul class="navbar">
                 <li>
-                    <a href="#aboutMe"> About Me</a>
+                    <a href="#aboutMe" class="navlink"> About Me</a>
                 </li>
                 <li>
-                    <a href="#history"> Employment History</a>
+                    <a href="#history" class="navlink"> Employment History</a>
                 </li>
                 <li>
-                    <a href="#hobbies"> Hobbies</a>
+                    <a href="#hobbies" class="navlink"> Hobbies</a>
                 </li>
                 <li>
-                    <a href="#artPortfolio"> Art Portfolio</a>
+                    <a href="#artPortfolio"class="navlink"> Art Portfolio</a>
                 </li>
                 <li>
-                    <a href="#contact"> Get in Touch</a>
+                    <a href="#contact"class="navlink"> Get in Touch</a>
                 </li>
             </ul>
         </nav>
         <h1>Yumi Patton</h1>
-        <h3>Front-End Web Development Student at Generation Australia, Amature Artist and Freelance Translator</h3>
+        <h4>Front-End Web Development Student <br> Amature Artist <br> and <br> Freelance Translator</h4>
         <img class="profilePhoto" src="images/ProfilePhoto.jpg" alt="Yumi Patton">
     </header>
     <main>
         <article id="aboutMe">
             <h2> About Me </h2>
-            <div>
-                <h3>Aspiring Front-end web Developer</h3>
-                <p>I am an aspiring front-end web development student at Generation Australia.</p>
-            </div>
-            <div>
-                <h3>Translator</h3>
-                <p>I have been freelancing as a medical translator since 2013. I have worked with various clients from
-                the medical/pharmaceutical field including Clinical Research Organisations (CRO) as well as specialist translation
-                companies.</p>
-            </div>
-            <div>
-                <h3>Amature artist</h3>
-                <p>I have held a few group exhibitions and have sold paintings. I am particularly interested in portrait drawing/painting.
-                <a href="#artPortfolio">see my art portfolio.</a></p>
+            <div class="aboutMeFlexbox">
+                <div>
+                    <h3>Aspiring Front-end web Developer</h3>
+                    <p>I am an aspiring front-end web development student at Generation Australia.</p>
+                </div>
+                <div>
+                    <h3>Translator</h3>
+                    <p>I have been freelancing as a medical translator since 2013. I have worked with various clients from
+                    the medical/pharmaceutical field including Clinical Research Organisations (CRO) as well as specialist translation
+                    companies.</p>
+                </div>
+                <div>
+                    <h3>Amature artist</h3>
+                    <p>I have held a few group exhibitions and have sold paintings. I am particularly interested in portrait drawing/painting.
+                    <a href="#artPortfolio">See my art portfolio.</a></p>
+                </div>
             </div>
         </article>
-        <hr>
         <section id="history">
             <h2>Brief Employment History</h2>
-            <table>
-                <tr>
-                    <th scope="row">Sept 2013 - current </th>
-                    <td>Freelance Translator (Medical & Pharmaceutical, English - Japanese, Japanese- English)</td>
-                </tr>
-                <tr>
-                    <th scope="row">Jul 2013 - Sept 2013</th>
-                    <td>Research Assistant - Engineering (Mining), Montanuniversität Leoben, Austria</td>
-                </tr>
-                <tr>
-                    <th scope="row">Apr 2011 - Apr 2012</th>
-                    <td>Research Assistant - Medical (Epidemiology), The Cancer Council NSW, Australia</td>
-                </tr>
-                <tr>
-                    <th scope="row">Apr 2010 - Apr 2011</th>
-                    <td>Volunteer Biostatistician, The Cancer Council NSW, Australia</td>
-                </tr>
-            </table>
+            <div class="employmentTable">
+                <div class="employmentItem">
+                    <div class="yearsWorked">Sept 2013 - Current </div>
+                    <div class="jobTitle"><strong>Freelance Translator</strong> (Medical & Pharmaceutical, English - Japanese, Japanese- English)</div>
+                </div>
+                <div class="employmentItem">
+                    <div class="yearsWorked">Jul 2013 - Sept 2013</div>
+                    <div class="jobTitle"><strong>Research Assistant</strong> - Engineering (Mining), Montanuniversität Leoben, Austria</div>
+                </div>
+                <div class="employmentItem">
+                    <div class="yearsWorked">Apr 2011 - Apr 2012</div>
+                    <div class="jobTitle"><strong>Research Assistant</strong>- Medical (Epidemiology), The Cancer Council NSW, Australia</div>
+                </div>
+                <div class="employmentItem">
+                    <div class="yearsWorked">Apr 2010 - Apr 2011</div>
+                    <div class="jobTitle"><strong>Volunteer Biostatistician</strong>, The Cancer Council NSW, Australia</div>
+                </div>
+            </div>
         </section>
-        <hr>
+
         <section id="hobbies">
             <h2>Hobbies</h2>
-            <ul>
-                <li>Drawing/Painting (<a href="#artPortfolio">see my art portfolio.</a>) </li>
-                <li>coding (follow me on <a href="https://www.codewars.com/users/YPatton86">codewars</a> and <a href="https://github.com/YPatton86">github</a>)</li>
+            <ul class= "hobbyList">
+                <li> <div class ="circle" ><i class="fas fa-palette hobby"></i> <h3>Drawing/Painting</h3>  <p><a href="#artPortfolio">See my art portfolio</a><br> Follow me on <br> <a href="https://www.kaggle.com/wobbythetot">Instagram<i class="fab fa-instagram"></i></a></p> </div></li>
+                <li> <div class ="circle"><i class="fas fa-laptop-code hobby"></i> <h3>Coding</h3> <p>Follow me on <br> <a href="https://github.com/YPatton86">github<i class="fab fa-github"></i></a>,
+                     <a href="https://www.codewars.com/users/YPatton86">codewars<span class="iconify" data-icon="simple-icons:codewars" data-inline="false"></span></a>
+                     <br> and <a href="https://www.instagram.com/cheekytotart/">Kaggle<i class="fab fa-kaggle"></i></a></p></div>
+                </li>
             </ul>
         </section>
-        <hr>
         <section id="artPortfolio">
             <h2>Art portfolio</h2>
-            <div  class="carousel">
-                    <div class="carousel-item">
-                        <img src="images/artPortrait1.jpg" class="portrait" alt="Mother and child portrait">
+
+                <div  class="carousel">
+                    <div class="carousel-item" id="portrait1">
+                        <img  src="images/artPortrait1.jpg" class="portrait" alt="Mother and child portrait">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" id="portrait2">
                         <img src="images/artPotrait2.jpg" class="portrait" alt="portrait of a boy">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" id="portrait3">
                         <img src="images/artPortrait3.jpg" class="portrait" alt="portrait of children">
                     </div>
-            </div>
-
+                </div>
+                <div class="carouselButtons">
+                    <a href="#portrait1"><span class="dot"></span></a>
+                    <a href="#portrait2"><span class="dot"></span></a>
+                    <a href="#portrait3"><span class="dot"></span></a>
+                </div>
         </section>
-        <hr>
         <section id="contact">
             <h2>Get in Touch</h2>
             <p>For commision works, please contact me </p>
@@ -108,11 +119,16 @@
         </section>    
     </main>
    <footer>
-   
-<a href="https://twitter.com/YumiPatton?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-    data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @YumiPatton</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="followMeicons">
+        <a href="https://twitter.com/YumiPatton"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/YPatton86"><i class="fab fa-github"></i></a>
+        <a href="https://www.kaggle.com/wobbythetot"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/cheekytotart/"><i class="fab fa-kaggle"></i></a>
+        <a href="https://www.codewars.com/users/YPatton86"><span class="iconify" data-icon="simple-icons:codewars" data-inline="false"></span></a>
+
+    </div>
        <p>Made with ❤️ in Sydney by Yumi Patton</p>
+    <p>The icons are from <a href="https://use.fontawesome.com/">Fontawesome</a> and <a href="https://iconify.design/icon-sets/simple-icons/codewars.html">Iconify.Design </a> and the hero background photo is from <a href="https://www.adorama.com/alc/0008042/article/FOCUS-ON-LENSES-Fuzzy-Logic">https://www.adorama.com/alc/0008042/article/FOCUS-ON-LENSES-Fuzzy-Logic</a></p>
    </footer> 
     
 </body>
